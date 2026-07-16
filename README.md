@@ -173,14 +173,6 @@ Durante o desenvolvimento, foram aplicados conhecimentos de:
 - criação de visuais personalizados com HTML;
 - organização e documentação de projetos no GitHub.
 
-## Próximas melhorias
-
-- separar os dados em pastas `raw` e `processed`;
-- criar logs de execução do ETL;
-- adicionar testes automatizados;
-- utilizar banco de dados SQL como fonte;
-- automatizar a atualização dos dados;
-- desenvolver análises preditivas.
 
 ## Autor
 
