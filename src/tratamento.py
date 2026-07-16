@@ -12,9 +12,19 @@ import pandas as pd
 # ------------------------------------------
 
 PASTA_PROJETO = Path(__file__).resolve().parent.parent
-ARQUIVO_ENTRADA = PASTA_PROJETO / "data" / "base_vendas_ficticia.xlsx"
-ARQUIVO_SAIDA = PASTA_PROJETO / "data" / "base_vendas_tratada.xlsx"
+ARQUIVO_ENTRADA = (
+    PASTA_PROJETO
+    / "data"
+    / "raw"
+    / "base_vendas_ficticia.xlsx"
+)
 
+ARQUIVO_SAIDA = (
+    PASTA_PROJETO
+    / "data"
+    / "processed"
+    / "base_vendas_tratada.xlsx"
+)
 
 # ------------------------------------------
 # Importando a base
